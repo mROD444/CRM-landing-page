@@ -160,3 +160,66 @@ hr {
 .tile-text-top {
     margin: 3%;
 }
+
+.credit-image2 {
+    /* border: 1px solid black; */
+    width: 300px;
+    height: auto;
+    margin-left: 5%;
+}
+
+.credit-container {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 5%;
+    width: 80vw;
+    margin-left: 5%;
+    background-color: aliceblue;
+    background: linear-gradient(90deg, #ffffff 395px, rgb(0, 101, 253) 0, rgb(0, 101, 253) 100%);
+    color: white;
+}
+
+ul {
+    text-align: left;
+    list-style-type: none;
+    margin: 4%;
+}
+
+ul li:before {
+    content: "-";
+    margin-right: 10px;
+    color: white;
+}
+
+.blue-text {
+    border-left: 1px solid black;
+    height: 200px;
+    margin-left: 5%;
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    align-items: center;
+    padding-left: 5%;
+    /* padding-top: 5%; */
+}
+
+h3 {
+    margin: 4%;
+}
+
+h5 {
+    margin: 4%;
+}
+
+.learn-more {
+    border: 2px solid white;
+    border-radius: 10%;
+    background-color: blue;
+    margin-left: 15%;
+    width: 150px;
+    height: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
