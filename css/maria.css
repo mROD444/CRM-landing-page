@@ -7,6 +7,7 @@
     background-color: rgb(255, 255, 255);
 }
 nav{
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,33 +20,35 @@ nav{
     width:180px;
     height:auto;
     align-items: center;
-    margin-top:-10px;
-    padding-top:23px;
+    margin-top:-28px;
+    padding-top:0px;
 }
 
 .links{
+    background-color: white;
     padding-top:20px;
     display:flex;
     justify-content: space-evenly;
     width: 50%;
     margin-left: 150px;
-    font-size:16.5px;
-
+    font-size:20px;
+    margin-top: -42px;
 }
 
 nav a{
     text-decoration: none;
-    color:rgb(107, 107, 107);
+    color:rgb(48, 48, 48);
     justify-content: space-evenly;
 
 }
 
 .btns{
-    width:90px;
-    height:40px;
+    width:125px;
+    height:50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: -28px;
 
 }
 
@@ -59,6 +62,7 @@ nav a{
     border-radius: 10px;
     padding-top:7px;
     margin-left:70px;
+    font-size:22px;
 }
 
 
@@ -72,6 +76,7 @@ nav a{
     border-radius: 10px;
     margin-right:180px;
     padding-top:6px;
+    font-size:22px;
 }
 
 /* @media(max-width:500px;){
@@ -126,7 +131,7 @@ footer{
     background: #0850f8;
     height:60vh
 }
-h1, h2{
+.try, h2{
     color:white;
     text-align: center;
 }
@@ -155,7 +160,7 @@ button{
 
 }
 #start-button{
-    margin-left: 540px;
+    margin-left: 600px;
     color: white;
     background-color: rgb(64, 255, 47);
     
@@ -174,7 +179,7 @@ button{
     margin-left:45px;
 }
 #chat-with-us{
-    margin-right: 550px;
+    margin-right: 600px;
     background-color:white ;
     color:#0850f8
     
