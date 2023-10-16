@@ -126,6 +126,10 @@ hr {
     grid-area: credit-image;
     margin-top: 15vh;
 }
+.credit-image {
+    grid-area: credit-image;
+    margin-top: 15vh;
+}
 
 .tile-images {
     grid-area: tile-images;
@@ -194,6 +198,9 @@ ul li:before {
     color: white;
 }
 
+.blue-text {
+    border-left: 1px solid black;
+    height: 200px;
 .blue-text {
     border-left: 1px solid black;
     height: 200px;
