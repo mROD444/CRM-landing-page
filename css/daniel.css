@@ -13,6 +13,7 @@
     grid-template-areas: 
         "content picture";
     align-items: stretch;
+    margin-top: 10vh;
 }
 
 .free2 {
@@ -122,12 +123,6 @@ hr {
     grid-area: whitespace2;
 }
 
-.credit-image {
-    grid-area: credit-image;
-    margin-top: 15vh;
-}
-
-
 .tile-images {
     grid-area: tile-images;
     display: flex;
@@ -142,10 +137,10 @@ hr {
 
 .tiles {
     overflow: hidden;
-    height: 8vh;
-    width: 55px;
+    height: 13vh;
+    width: 85px;
     margin: 15px;
-    padding: 35px;
+    padding: 5px;
     border: 1px solid black;
     border-radius: 15%;
 }
@@ -162,7 +157,7 @@ hr {
     margin: 3%;
 }
 
-.credit-text {
+/* .credit-text {
     grid-area: credit-text;
     border-top: 1px solid black;
     border-left: 2px solid black;
@@ -171,10 +166,10 @@ hr {
     border-top-right-radius: 5%;
     border-bottom-right-radius: 5%;
     color: white;
-}
+} */
 
 .credit-container {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     display: grid;
     grid-template-columns: 0.5fr 1.5fr 1.5fr 0.5fr;
     grid-template-rows: 0.5fr 2fr 0.5fr;
@@ -223,6 +218,7 @@ hr {
     border-top-right-radius: 5%;
     border-bottom-right-radius: 5%;
     color: white;
+    padding-bottom: 500px;
 }
 
 h3 {
@@ -244,6 +240,7 @@ h5 {
     height: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
+    text-align: center;
 }
 
 ul {
