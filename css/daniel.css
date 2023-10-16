@@ -179,6 +179,7 @@ hr {
     background-color: aliceblue;
     background: linear-gradient(90deg, #ffffff 395px, rgb(0, 101, 253) 0, rgb(0, 101, 253) 100%);
     color: white;
+    /* height: 70vh; */
 }
 
 ul {
